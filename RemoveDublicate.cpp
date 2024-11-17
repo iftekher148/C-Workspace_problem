@@ -1,4 +1,5 @@
-// In this example, we’re examining the character r at i = 4 in the string "programming". The code checks if r has already appeared before in the string, and since it has, it is not added to the result.
+// In this example, we’re examining the character r at i = 4 in the string "programming". The code checks if r has already 
+// appeared before in the string, and since it has, it is not added to the result.
 
 // Here's a step-by-step explanation:
 
@@ -21,11 +22,12 @@ using namespace std;
 
 int main(){
     string str,res="";
+    int i,j;
     cout<<"Enter String:";
     getline(cin,str);
 
-    for(int i=0;i<str.length();i++){
-        for(int j=0;j<str.length();j++){
+    for( i=0;i<str.length();i++){
+        for( j=0;j<str.length();j++){
             //inner loop  break condition
             if(str[i]==str[j])
                 break; 

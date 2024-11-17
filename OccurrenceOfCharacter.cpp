@@ -12,7 +12,7 @@ int main(){
     cout<<"Enter Character:";
     cin>>c;
 
-    for(int i=0;i<=s.length()-1;i++){
+    for(int i=0;i<=s.length();i++){
         if(s[i]==c)
         result++;
     }
