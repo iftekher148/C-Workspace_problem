@@ -7,7 +7,7 @@
 using namespace std;
 
 int main(){
-    string str1,str2;
+    string str1;
     string reverse_string;
 
     cout<<"Ennter String:";
